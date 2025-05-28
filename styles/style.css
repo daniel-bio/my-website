@@ -1,10 +1,63 @@
 body {
-  font-family: Arial, sans-serif;
-  margin: 2rem;
-  background-color: #f7f7f7;
+  margin: 0;
+  font-family: 'Helvetica Neue', sans-serif;
+  background: #fdfdfd;
   color: #333;
+  line-height: 1.6;
 }
 
-h1 {
+.hero {
+  background: #111;
+  color: white;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.hero h1 {
+  margin-bottom: 0.2rem;
+  font-size: 2.5rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #ccc;
+}
+
+nav {
+  margin-top: 1rem;
+}
+
+nav a {
+  color: #ccc;
+  margin: 0 0.5rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+.content {
+  padding: 2rem 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.project {
+  margin-bottom: 2rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li a {
   color: #0066cc;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  text-decoration: underline;
 }
